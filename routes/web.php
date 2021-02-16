@@ -20,9 +20,9 @@ Route::get('/younes', function ()
 });
 
 
-Route::get('/welcome', function () {     
+Route::get('/welcomert2', function () {     
     $var = 4;
-    return view('welcome' , compact('var'));
+    return view('welcomert2' , compact('var'));
 
 });
 

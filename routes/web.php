@@ -28,22 +28,23 @@ Route::get('/welcome', function () {
 
 
 
+Route::get('/route3', function () {     
+    $dols = 10;
+    $dols2 = 10;
+    
+    return view('route3', compact("dols", "dols2") );
 
-
-
-
-
-
-
-
-
-
-
-
-Route::get('/ex3',function(){
-    $var1 = 70;
-    $var2 = 80;
-    return view("home", compact("70","80"));
 });
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -7,6 +7,13 @@
     <title>Document</title>
 </head>
 <body>
+@if ($var %4 == 0)
+<p>{{$var*4}}</p>
     
+@else
+<p>error</p>
+    
+@endif   
+
 </body>
 </html>

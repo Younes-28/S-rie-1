@@ -21,7 +21,7 @@
     <p>{{$var1+$var2}}</p>
     <p>{{$var1-$var2}}</p>
     @else
-        <p>ils ne sont pas additionable et soustrayables</p>
+        <p>Ne sont pas additionables et soustrayables</p>
     @endif
 </body>
 </html>

@@ -20,11 +20,24 @@ Route::get('/younes', function ()
 });
 
 
-Route::get('/', function () {     
+Route::get('/welcome', function () {     
     $var = 4;
     return view('welcome' , compact('var'));
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Route::get('/ex3',function(){
@@ -32,4 +45,5 @@ Route::get('/ex3',function(){
     $var2 = 80;
     return view("home", compact("70","80"));
 });
+
 
